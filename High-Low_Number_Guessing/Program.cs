@@ -46,7 +46,7 @@ namespace High_Low_Number_Guessing
                     numberOfGuesses--;
                     if (numberOfGuesses == 0) // Check if out of guesses
                     {
-                        Console.WriteLine("You lose!\n");
+                        Console.WriteLine("You lose! The correct answer was {0}.\n", secretNumber);
                         break; // End game
                     }
                     else
@@ -61,7 +61,7 @@ namespace High_Low_Number_Guessing
                     numberOfGuesses--;
                     if (numberOfGuesses == 0) 
                     {
-                        Console.WriteLine("You lose!\n");
+                        Console.WriteLine("You lose! The correct answer was {0}.\n", secretNumber);
                         break; // End game
                     }
                     else
